@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="d-flex flex-column gap-4 align-items-center">
+        <div class="timer">
+            <span id="Timer"> 00.00.00.00</span>
+        </div>
+        <div class="sections d-flex gap-4">
+            <button id="Start">Start</button>
+            <button id="Stop">Stop</button>
+            <button id="Reset">Reset</button>
+            <button id="Lap">Lap</button>
+
+        </div>
+        <div id="laps" class="laps">
+            <ul>
+                <!-- <li>00.00.00.00</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

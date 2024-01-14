@@ -1,0 +1,25 @@
+body{
+    background-color: purple;
+}
+ul{
+    list-style: none;
+}
+
+.timer{
+    font-size: 100;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    border-radius: 50px;
+
+}
+
+
+#laps{
+    margin: 30px;
+    font-size: 30px;
+}
